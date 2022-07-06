@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab2_1.HelloController">
+   <children>
+      <Label layoutX="245.0" layoutY="35.0" text="Podaj promien walca" />
+      <TextField fx:id="wysokosc" layoutX="226.0" layoutY="104.0" />
+      <Label layoutX="243.0" layoutY="87.0" text="Podaj wysokosc walca" />
+      <TextField fx:id="promien" layoutX="227.0" layoutY="52.0" />
+      <Label layoutX="240.0" layoutY="138.0" text="Podaj szerokosc blachy" />
+      <TextField fx:id="szerokosc" layoutX="227.0" layoutY="155.0" />
+      <Button fx:id="Button" layoutX="277.0" layoutY="200.0" mnemonicParsing="false" onAction="#Oblicz" text="Oblicz" />
+      <Label layoutX="21.0" layoutY="236.0" text="Koszt blachy zwyklej" />
+      <Label layoutX="171.0" layoutY="236.0" text="Ciezar blachy zwyklej" />
+      <Label layoutX="310.0" layoutY="236.0" text="Koszt blachy nierdzewnej" />
+      <Label layoutX="457.0" layoutY="236.0" text="Ciezar blachy nierdzewnej" />
+      <TextField fx:id="kosztZw" layoutY="253.0" />
+      <TextField fx:id="ciezarZw" layoutX="152.0" layoutY="253.0" />
+      <TextField fx:id="kosztNier" layoutX="302.0" layoutY="253.0" />
+      <TextField fx:id="ciezarNier" layoutX="451.0" layoutY="253.0" />
+   </children>
+</AnchorPane>
